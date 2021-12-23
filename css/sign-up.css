@@ -1,0 +1,68 @@
+.content{
+    height: calc(100% - 140px);
+}
+
+.register{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form__register{
+    border-radius: 10px;
+    background-color: #0269bd;
+    max-width: 450px;
+    padding: 15px 25px;
+    position: relative;
+    text-align: center;
+}
+
+.form__register-inputs{
+    position: relative;
+}
+
+.form__register-inputs::after{
+    content: '';
+    height: 2px;
+    background-color: #ff9100;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 1px);
+    width: 100%;
+}
+
+.register__email, .register__pwd{
+    width: 100%;
+    padding: 10px 0;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.block__errors{
+    color: red;
+    margin-top: 10px;
+}
+
+.errors-item{
+    list-style-type: disc;
+}
+
+.sign-up__title{
+    color: #ffffff;
+}
+
+.sign-up__title{
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.sign-in__title{
+    color: #ffffff;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,60 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css');
+
+.link-btn, .btn{
+    background-color: #8BC34A;
+    border-radius: 25px;
+    padding: 5px 10px;
+    transition: 0.1s;
+}
+
+.btn{
+    border: hidden;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+
+.link-btn:hover{
+    background-color: #ffffff;
+    color: #8BC34A;
+    border-radius: 7px;
+}
+
+.btn-reg{
+    background-color: #2196F3;
+    border-radius: 50%;
+    border: 5px solid #8BC34A;
+    transition: 0.1s;
+    position: absolute;
+    right: -30px;
+    top: calc(50% - 30px);
+    height: 60px;
+    width: 60px;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 2px;
+}
+
+.btn-reg:hover{
+    color: #8BC34A;
+    text-shadow: 0 0 10px #86c460;
+    cursor: pointer;
+}
+
+.btn-close{
+    height: 100%;
+    text-align: center;
+    font-size: 38px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-right: 8px;
+    color: inherit;
+}
+
+.btn-close:hover{
+    color: #141618;
+}

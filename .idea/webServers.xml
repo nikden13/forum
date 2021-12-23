@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="93cfd7cb-feee-4f16-bd63-aacc0e432e51" name="pae" url="http://7371-pae.isib.tusur.ru/">
+        <fileTransfer rootFolder="/home/7371_pae/7371-pae.isib.tusur.ru" accessType="SFTP" host="212.192.123.68" port="22" sshConfigId="50c11dbc-abb3-4001-9341-1d137e7adb26" sshConfig="7371_pae@212.192.123.68:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

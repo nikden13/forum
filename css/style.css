@@ -1,0 +1,108 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'themes-list.css';
+@import 'btn.css';
+@import 'sign-up-in.css';
+@import 'profile.css';
+@import 'pagination.css';
+@import 'theme.css';
+@import 'news.css';
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css');
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif, 'FontAwesome';
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-weight: 400;
+    font-size: 18px;
+    color: #141618;
+    line-height: 140%;
+    background: #f3f4f5;
+}
+
+section{
+    flex: 1 1 auto;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: .1s;
+}
+
+li{
+    list-style-type: none;
+}
+
+h3{
+    padding-left: 25px;
+    margin-bottom: 42px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+textarea{
+    resize: none;
+}
+
+.shadow{
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.photo_user{
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 115%;
+    margin-right: 27px;
+    border-right: 2px solid #f3f4f5;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.list_profile__photo{
+    width: 65px;
+    height: 65px;
+    font-size: 45px;
+    margin: 0 auto;
+}
+
+.profile__photo{
+    width: 65px;
+    height: 65px;
+    font-size: 45px;
+    background: linear-gradient(to bottom right, #a9d8ea, #19b4e3);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #b8e1e8;
+}

@@ -1,0 +1,46 @@
+.profile__content{
+    flex: 1 1 auto;
+}
+
+.profile__info{
+    display: flex;
+}
+
+.profile__my-photo{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom right, #a9d8ea, #19b4e3);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120px;
+    text-transform: uppercase;
+    color: #b8e1e8;
+    margin-bottom: 15px;
+}
+
+.profile__text{
+    flex: 1 1 0;
+    margin-left: 135px;
+    overflow: hidden;
+}
+
+.profile__title{
+
+}
+
+.profile__content-inner{
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+}
+
+.profile__text-item span{
+    font-weight: bold;
+}
+
+.profile__text-item{
+    margin-bottom: 10px;
+}

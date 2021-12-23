@@ -1,0 +1,28 @@
+.news-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-list__item {
+    border: 1px solid #2196F3;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    box-shadow: 0 0 3px #19b4e3;
+    flex-direction: column;
+}
+
+.news-list__item h4{
+    margin-bottom: 10px;
+}
+
+.news-list__item br{
+    margin-bottom: 7px;
+}
+
+.news-list__item img, .news-list__item iframe{
+    display: block;
+    width: 60%;
+    height: 300px;
+    margin: 15px auto;
+}
